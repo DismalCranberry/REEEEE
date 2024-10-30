@@ -1,4 +1,4 @@
-Object subclass: MyProgram [
+Object subclass: rEEEEE [
     MyProgram class >> main [
         Transcript show: 'r'; flush.
         
