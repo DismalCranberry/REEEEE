@@ -1,5 +1,5 @@
-Object subclass: rEEEEE [
-    MyProgram class >> main [
+Object subclass: rEEEE [
+    rEEEE class >> main [
         Transcript show: 'r'; flush.
         
         [ 
