@@ -10,8 +10,7 @@ main = do
   log "r" 
   
   let loop = do
-        log "e" -- Print 'e'
+        log "e" 
         delay 100000 
-        loop -- Repeat
-
+        loop 
   loop 
