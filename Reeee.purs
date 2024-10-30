@@ -7,11 +7,11 @@ import Control.Concurrent (delay)
 
 main :: Effect Unit
 main = do
-  log "r" -- Print 'r'
+  log "r" 
   
   let loop = do
         log "e" -- Print 'e'
-        delay 100000 -- Wait for 100 milliseconds
+        delay 100000 
         loop -- Repeat
 
-  loop -- Start the loop
+  loop 
