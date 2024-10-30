@@ -5,16 +5,16 @@ procedure Main is
 
    procedure Print_Repeat is
    begin
-      Put_Line("r"); -- Print 'r'
-      Flush;          -- Flush output
+      Put_Line("r"); 
+      Flush;          
 
       loop
-         Put_Line("e"); -- Print 'e'
-         Flush;          -- Flush output
-         Delay(0.1);     -- Wait for 0.1 seconds
+         Put_Line("e"); 
+         Flush;          
+         Delay(0.1);     
       end loop;
    end Print_Repeat;
 
 begin
-   Print_Repeat; -- Call the procedure to start printing
+   Print_Repeat; 
 end Main;
