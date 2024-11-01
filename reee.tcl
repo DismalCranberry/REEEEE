@@ -1,4 +1,4 @@
-proc rEEEE_main {} {
+proc rEEE_main {} {
     puts "r"  ; 
     flush stdout  ; 
 
@@ -8,4 +8,4 @@ proc rEEEE_main {} {
         after 100  ; 
     }
 }
-rEEEE_main
+rEEE_main
