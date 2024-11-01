@@ -1,4 +1,4 @@
-Object subclass: rEEEE [
+Object subclass: #rEEEE [
     rEEEE class >> main [
         Transcript show: 'r'; flush.
         [ 
