@@ -1,4 +1,4 @@
-Scriptname PrintRe extends Quest
+Scriptname PrintReee extends Quest
 
 Function StartPrinting()
     Debug.MessageBox("r") ; Show "r" in a pop-up message
