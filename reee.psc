@@ -1,8 +1,8 @@
 Scriptname PrintReee extends Quest
 
 Function StartPrinting()
-    Debug.MessageBox("r") ; Show "r" in a pop-up message
+    Debug.MessageBox("r")
     while true
-        Debug.MessageBox("e") ; Show "e" in a pop-up message infinitely
+        Debug.MessageBox("e")
     endWhile
 EndFunction
